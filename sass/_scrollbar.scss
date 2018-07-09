@@ -1,0 +1,14 @@
+body
+{
+  .main {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+  }
+  .main::-webkit-scrollbar {
+    display: none;  // Safari and Chrome
+  }
+
+}

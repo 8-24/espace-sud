@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type='text/javascript' src='js/bootstrap.js'></script>
+</head>
+<body>
+<div class="container">
+    <input id="burger" type="checkbox" />
+
+    <label for="burger">
+
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <div class="nav-top-container">
+        <div class="logo-mobile"></div>
+           <!--<nav>-->
+        <div class="nav-top">
+            <ul>
+                <li><a href="#">espace sud</a></li>
+                <li><a>|</a></li>
+                <li><a href="#">location</a></li>
+            </ul>
+        </div>
+           <!--</nav>-->
+    </div>
+    <div class="nav-left-container">
+        <div class="logo-place" style="width: 100%;"></div>
+
+            <ul>
+                <li><a href="#home" class="active">— espace sud</a></li>
+                <li><a href="#troupes">troupe</a></li>
+                <li><a href="#event">evenement</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+    </div>
+
+        <div class="main">
+            <section id="home">
+            <div class="left-content left-home"><h2></h2></div>
+            <div class="right-content right-home"><h1>Un espace au centre<br> de la création.</h1>
+            <p>Et magnatur as de perest que mos a dolo ipsaped mi, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid asperiores consectetur dolore inventore soluta velit voluptatem. Animi cum, cumque eligendi, libero magni numquam, provident quaerat ratione recusandae rerum sequi.velecerovide pro quunt hiliciassum ium intoren delectent molupta.</p>
+                <br><br><br><br>
+                <a href="#" class="button home-btn">REJOINDRE</a>
+            </div>
+            </section>
+
+            <section id="troupes">
+                <div class="left-content left-troupes"><img id="img-slider" src="img/portrait.png" alt="">
+
+                </div>
+                <div class="right-content"><h1>l’esprit d’équipe<br>et l’intelligence<br>collective</h1>
+
+                <h5>— L’avant scène Opéra</h5>
+                <p class="troupes-info">et magnatur as de perest que mos a dolo ipsaped mi, velecerovide pro quunt hiliciassum ium intoren delectent molupta pereperum aut quam fuga. Obit, te idemporest lab inusae evel modiam, quo esequi ariassit quo beaquas magnam fugitem la sum ex etus maiore, as quidic totat. Xercius ciendit aquiber spitatus simincipsae. Nam, sin rebus.
+                </p>
+                </div>
+            </section>
+
+            <section id="event">
+                <div class="left-content left-event"><h2></h2></div>
+                <div class="right-content right-event"><h1>Nos prochains<br>événements</h1><h3 style="font-variant: all-small-caps; font-weight: lighter;">ven — 2 juin 2018 — 09h30<br>
+                    théâtre du pommier</h3>
+                    <h5>— Le clan des O’tori</h5>
+                    <p class="troupes-info">et magnatur as de perest que mos a dolo ipsaped mi, velecerovide pro quunt hiliciassum ium intoren delectent molupta pereperum aut quam fuga. Obit, te idemporest lab inusae evel modiam, quo esequi ariassit quo beaquas magnam fugitem la sum ex etus maiore, as quidic totat. Xercius ciendit aquiber spitatus simincipsae. Nam, sin rebus.
+                    </p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="left-content left-contact"><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.3968174046336!2d6.9259187509935085!3d46.99318087904655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e0a1030cb247d%3A0x51dd29f33e858e5f!2sRue+du+Seyon+32%2C+2000+Neuch%C3%A2tel!5e0!3m2!1sfr!2sch!4v1530232021127" width="100%" height="90px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                <div class="right-content right-contact">
+                    <h1>Retrouvons-nous<br> pour créer</h1>
+                    <form action="/my-handling-form-page" method="post" class="formulaire">
+                        <div>
+
+                            <input type="text" id="name" name="user_name" value=" Votre nom et prénom"/>
+                        </div>
+                        <div>
+                            <input id="mail" name="user_mail" aria-label="usermail" value=" Votre adresse mail "/>
+                        </div>
+                        <div>
+                            <textarea id="msg" name="user_message"> Ecrivez-nous ici</textarea>
+                        </div><br><br>
+                            <a href="#" id="button">ENVOYER</a>
+                    </form>
+                </div>
+            </section>
+        </div>
+    <footer>
+        <div class="social">
+
+            <a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-twitter"></a><a href="#" class="fa fa-instagram"></a><a href="#" class="oye-footer"></a>
+            <div class="footer-nav">
+
+                <a href="#home">espace sud</a>
+                <a href="#troupes">troupes</a>
+                <a href="#event">evenement</a>
+                <a href="#">residence</a>
+                <a href="#">location</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+
+    <div class="copyright">espace sud 2018 | tout droit reservé — pensé et developpé par : <a id="oye-link" href="https://www.oye.agency">oye.agency</a></div>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+$red:#e83670;
+$blue:#aaddf9;
+$titre-color:white;
+$black:black;
+$footer-copy-color:#ae103c;
+$footer-color:#cb225b;
+
+
+// FONT ----------------------------------------- //
+
+$titre-font:"Affogato Medium";
+$text-font:"Affogato Light";
+$text-subtitle:"Affogato Light";
+$subtitle-size:2rem;
+$title-size:5rem;
+$btn-fontsize:1.3rem;
+$nav-font:"Affogato Medium";
+
+// BUTTON INPUT -------------------------------- //
+.home-btn{
+  margin-left: 20px;
+}
+.button{
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  padding-left: 40px;
+  margin-right: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family:$nav-font;
+  font-size:$btn-fontsize;
+  text-decoration: none;
+  color: $blue;
+  background-color: unset;
+  border: $blue 2px solid;
+  transition-duration: 200ms;
+  transition-property: background-color,width,height;
+  border-radius: 9px 9px 9px 9px;
+  &:hover{
+    background-color: $blue;
+    color: $red;
+    width: 85px;
+    height: 55px;
+    transition-property: background-color,width,height;
+    transition-duration: 500ms;
+
+  }
+  @media screen and (max-width: 800px){
+    float: right;
+    height: 3.2vh;
+    width: 95px;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: -25px;
+    &:hover{
+      width: 95px;
+      height: 3.2vh;
+
+
+    }
+  }
+}
+
+#button{
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  padding-left: 40px;
+  margin-right: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family:$nav-font;
+  font-size:$btn-fontsize;
+  text-decoration: none;
+  color: $blue;
+  background-color: unset;
+  border: $blue 2px solid;
+  transition-duration: 200ms;
+  transition-property: background-color,width,height;
+  border-radius: 9px 9px 9px 9px;
+  &:hover{
+    background-color: $blue;
+    color: $red;
+    width: 85px;
+    height: 55px;
+    transition-property: background-color,width,height;
+    transition-duration: 500ms;
+
+  }
+  @media screen and (max-width: 800px){
+    float: right;
+    height: 3.2vh;
+    width: 95px;
+    margin-right: -15px;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: -25px;
+    padding-left: 55px;
+    &:hover{
+      width: 95px;
+      height: 3.2vh;
+
+
+    }
+  }
+}

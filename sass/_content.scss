@@ -1,0 +1,52 @@
+
+
+
+
+  .left-home {
+    background-color: #e83670;
+    background-image: url(../img/home-espace-sud.png);
+    background-position-y: -29px;
+    background-position-x: 41px;
+    background-size: 519px;
+    mix-blend-mode: lighten;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    @media screen and (max-width: 800px) {
+      .left-content.left-home {
+        height: 40vh;
+        width: 100%;
+        background-position-x: center;
+
+      }
+
+    }
+
+}
+
+.left-content.left-event {
+  background-color: $red;
+  background-image: url("../img/img-event-1.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 50%;
+
+  @media screen and (max-width: 800px){
+
+    width: 100vw;
+    height: 40vh;
+    /* padding-bottom: 130px; */
+    background-clip: content-box;
+    background-size: 24vh;
+    background-position-y: center;
+    background-color: #cc3d5b;
+}
+}
+
+
+
+.left-content.left-contact{
+  background-color: $red;
+  
+}

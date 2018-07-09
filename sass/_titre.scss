@@ -1,0 +1,120 @@
+@import "variables";
+h1 {
+  font-size: 3em;
+  word-break:normal;
+  font-weight: bold;
+  font-family: $titre-font;
+  color: $titre-color;
+  line-height: 50px;
+  margin-left: 20px;
+  @media screen and (max-width: 800px){
+    font-size: 2em;
+    /* margin-left: 45px; */
+    line-height: 35px;
+    margin-top: 20px;
+
+
+  }
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight:lighter;
+  font-family: $titre-font;
+  color: $titre-color;
+  margin-left: 20px;
+   @media screen and (max-width: 800px){
+    font-size: 1.5em;
+     margin-left: 45px;
+     line-height: 35px;
+
+
+  }
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 300;
+  font-family: $text-font;
+  line-height: 32px;
+  margin-left: 20px;
+  word-break: normal;
+
+  color: $titre-color;
+   @media screen and (max-width: 800px){
+     font-size: 2em;
+     /* margin-left: 45px; */
+     line-height: 26px;
+
+
+  }
+}
+
+h4{
+  font-size: 1.75em;
+  word-break: normal;
+  font-weight: bold;
+  font-family: $text-font;
+  color: $titre-color;
+  margin-left: 20px;
+   @media screen and (max-width: 800px){
+    font-size: 1.10em;
+     margin-left: 45px;
+     line-height: 35px;
+
+  }
+}
+
+h5 {
+  font-size: 1.5em;
+  word-break: normal;
+  font-weight: 400;
+  font-family: $titre-font;
+  color: $titre-color;
+  margin-top: 3em;
+  margin-left: 20px;
+
+   @media screen and (max-width: 800px){
+     font-size: 1.35em;
+     margin-top: 1em;
+  }
+}
+
+h6{
+  font-size: .75em;
+  font-weight: 400;
+  word-break: normal;
+  font-family: $titre-font;
+  color: $titre-color;
+  margin-left: 20px;
+   @media screen and (max-width: 800px){
+    font-size: 2em;
+     margin-left: 45px;
+     line-height: 35px;
+
+
+  }
+}
+
+p{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  word-break: normal;
+  color: $titre-color;
+  font-family: $text-font;
+  text-align: justify;
+  margin-top: 1em;
+  line-height: 25px;
+  margin-right: 50px;
+  margin-left: 20px;
+  @media screen and (max-width: 800px){
+    font-size: 1em;
+    line-height: 22px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+}
+.troupes-info{
+ margin-top: 0.5em;
+
+}
