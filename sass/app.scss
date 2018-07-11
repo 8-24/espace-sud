@@ -1,30 +1,17 @@
-// sass --watch sass:css
-/*
-
-  main{
-    button{
-      &:hover{
-
-      }
-      &:hover{
-
-      }
-    }
-  }
-*/
 @import "reset";
 @import "variables";
+@import "slider";
+@import "slider";
+@import "fonts";
 @import "titre";
 @import "content";
-@import "slider";
 @import "scrollbar";
 @import "formulaire";
 @import "footer";
 body{
   background-color: $red;
-
+  font-family: paragraphsFont;
 }
-
 .container{
   width: 100%;
   height: 100%;
@@ -32,7 +19,6 @@ body{
   padding: 0;
   overflow: hidden;
 }
-
 .nav-top-container{
   width: 100%;
   height: 15vh;
@@ -43,35 +29,29 @@ body{
   font-variant: all-small-caps;
   color: $titre-color;
   font-size: 2em;
-
   ul {
     margin: 0;
     padding: 0;
     list-style: none;
   }
-
   li {
     display: inline-block;
     float: right;
 
   }
-
   a {
     display: block;
     padding: 6px 12px;
     text-decoration: none;
     color: white;
+    font-family: titleFont;
   }
   @media screen and (max-width: 992px){
     display: block;
   }
-
   @media screen and (max-width: 800px){
     height: 10vh;
-
-
   }
-
 }
 .logo-place{
   width: 100%;
@@ -85,7 +65,6 @@ body{
 }
 .logo-mobile{
   display: none;
-
   @media screen and (max-width: 800px){
     display: block;
     width: 171px;
@@ -98,9 +77,6 @@ body{
     float: left;
   }
 }
-
-
-
 .nav-left-container {
   top: 15vh;
   width: 12vw;
@@ -109,14 +85,11 @@ body{
   position: fixed;
   padding-left: 30px;
   font-family: "Affogato Medium";
-
-
   ul {
     list-style-type: none;
     margin-top: 15em;
     padding: 0;
   }
-
   li a {
     font-weight: bold;
     display: block;
@@ -138,18 +111,13 @@ body{
       transition-property: color,left;
       transition-duration: 100ms;
     }
-
   }
-
   @media screen and (max-width: 992px){
     display: block;
   }
-
   @media screen and (max-width: 800px){
-
     display: none;
   }
-
 }
 .nav-top{
   width: 42.8%;
@@ -162,48 +130,30 @@ body{
   @media screen and (max-width: 800px){
     display: none;
   }
-
-
   ul {
     float: left;
   }
   a{
     margin-left: 0px;
     padding-left: 0px;
-
   }
-
 }
-/*
-.logo-place{
-  float: left;
-  width: 100%;
-  height: 300px;
-  background-color: black;
-  background-image: url("img/logo_espace_sud.svg");
-  z-index: 10000;
-
-}*/
-
 .main{
   padding-top: 15vh;
   padding-left: 13.5vw;
   width: 100vw;
   height: auto;
   background-color: #e83670;
-  /* position: fixed; */
   top: 15vh;
   overflow-y: scroll;
   overflow-x: hidden;
   section{
     width: 100%;
     height: 100%;
-
   }
   @media screen and (max-width: 992px){
     padding-left: 17.5vw;
   }
-
   @media screen and (max-width: 800px){
     width: 100%;
     left: 0;
@@ -211,7 +161,6 @@ body{
     padding-top: 25px;
     overflow-y: hidden;
   }
-
 }
 .left-content {
   float: left;
@@ -219,11 +168,7 @@ body{
   height: 80vh;
   padding-right: -27px;
   border-bottom: $red 1px solid;
-
-  @media screen and (max-width: 992px) {
-
-  }
-
+  @media screen and (max-width: 992px) {}
   @media screen and (max-width: 800px) {
     width: 100%;
     margin-top: 0;
@@ -241,27 +186,24 @@ body{
   height: 100vh;
   background-color: #e83670;
   border-bottom: 1px solid #e83670;
-  @media screen and (max-width: 992px){
-
+  overflow: hidden;
+  h1{
+    padding-bottom: 5%;
   }
-
+  @media screen and (max-width: 992px){}
   @media screen and (max-width: 800px){
     width: 100vw;
     height: auto;
     padding-bottom: 65px;
     left: 0;
-
-
-
-
   }
 }
 .left-content.left-troupes {
-@media screen and (max-width: 800px){
-  height: 40%;
-  width: auto;
-  margin-top: 8em;
-}
+  @media screen and (max-width: 800px){
+    height: 40%;
+    width: auto;
+    margin-top: 8em;
+  }
 }
 #map{
   background-color: $blue;
@@ -272,15 +214,13 @@ body{
   width: 100%;
   }
 }
-
 // MENU_BURGER --------------------------------------------------- //
 input{
   display: none;
   @media screen and (max-width: 800px){
-  display: none;
+    display: none;
+  }
 }
-}
-
 @media screen and (max-width: 800px) {
   input + label {
     position: fixed;

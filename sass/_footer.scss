@@ -56,7 +56,6 @@ a#oye-link{
   padding: 5px;
 }
 //-------------------------------------------- link href footer ------------------///
-
 .footer-nav{
   padding-right: 45px;
   width: auto;
@@ -67,10 +66,8 @@ a#oye-link{
     padding-right: 45px;
     width: 61%;
   }
-
 }
-
- .footer-nav a {
+.footer-nav a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -79,21 +76,18 @@ a#oye-link{
   text-decoration: none;
   font-size: 17px;
    @media screen and (max-width: 800px){
-     padding: 14px 7px;
+    padding: 14px 7px;
    }
 }
-
 .footer-nav a:hover {
   opacity: 0.7;
   color: white;
 }
-
 .footer-nav a.active {
   background-color: #4CAF50;
   color: white;
 }
 //--------------------------------------------- Social Media buttons -------------------------------------------//
-
 .fa {
   padding: 8px;
   font-size: 30px;
@@ -102,14 +96,11 @@ a#oye-link{
   margin-top: 8px;
   margin-right: 10px;
 }
-
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
 /* Set a specific color for each brand */
-
 /* Facebook */
 .fa-facebook {
   background: white;
@@ -118,7 +109,6 @@ a#oye-link{
   height: 16px;
   border-radius: 100px 100px 100px 100px;
 }
-
 /* Twitter */
 .fa-twitter {
   background: white;

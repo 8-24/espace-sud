@@ -1,33 +1,31 @@
 <div class="nav-left-container">
     <div class="logo-place" style="width: 100%;"></div>
-
     <ul>
         <li><a href="#home" class="active">— location</a></li>
         <li><a href="#troupes">troupe</a></li>
         <li><a href="#event">evenement</a></li>
         <li><a href="#contact">contact</a></li>
     </ul>
-
 </div>
 <div class="main">
-    <section id="home">
+    <section>
         <div class="left-content left-home"><h2></h2></div>
-        <div class="right-content right-home"><h1>Un espace au centre<br> de la création.</h1>
+        <div class="right-content right-home"><h1 id="home">Un espace au centre<br> de la création.</h1>
             <p>Et magnatur as de perest que mos a dolo ipsaped mi, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid asperiores consectetur dolore inventore soluta velit voluptatem. Animi cum, cumque eligendi, libero magni numquam, provident quaerat ratione recusandae rerum sequi.velecerovide pro quunt hiliciassum ium intoren delectent molupta.</p>
             <br><br><br><br>
-            <a href="#" class="button home-btn">REJOINDRE</a>
+            <button class="button home-btn">REJOINDRE</button>
         </div>
     </section>
 
     <section id="troupes">
         <div class="left-content left-troupes">
             <div class="left-content-img">
-            <img class="img-slider" src="img/portrait.png" alt="">
-            <img class="img-slider" src="img/portrait.png" alt="">
-            <img class="img-slider" src="img/portrait.png" alt="">
+                <img class="img-slider" src="img/portrait.png" alt="">
+                <img class="img-slider" src="img/portrait.png" alt="">
+                <img class="img-slider" src="img/portrait.png" alt="">
             </div>
         </div>
-        <div class="right-content"><h1>l’esprit d’équipe<br>et l’intelligence<br>collective</h1>
+        <div class="right-content"><h1 id="event" >l’esprit d’équipe<br>et l’intelligence<br>collective</h1>
             <div class="right-content-slideshow-wrap">
                 <div class="right-content-item">
                     <h5>— L’avant scène Opéra</h5>
@@ -43,25 +41,54 @@
                     </p>
                 </div>
             </div>
-            <button class="slide_1" data-current-elem="0" onclick="slideShowPrev(0)">prev</button>
-            <button class="slide_1" data-current-elem="0" onclick="slideShowNext(0)">next</button>
+            <button class="slide_1" data-slide-role="btn-prev-slide" >prev</button>
+            <button class="slide_1" data-slide-role="btn-next-slide" >next</button>
         </div>
     </section>
-
-    <section id="event">
-        <div class="left-content left-event"><h2></h2></div>
-        <div class="right-content right-event"><h1>Nos prochains<br>événements</h1><h3 style="font-variant: all-small-caps; font-weight: lighter;">ven — 2 juin 2018 — 09h30<br>
-            théâtre du pommier</h3>
-            <h5>— Le clan des O’tori</h5>
-            <p class="troupes-info">et magnatur as de perest que mos a dolo ipsaped mi, velecerovide pro quunt hiliciassum ium intoren delectent molupta pereperum aut quam fuga. Obit, te idemporest lab inusae evel modiam, quo esequi ariassit quo beaquas magnam fugitem la sum ex etus maiore, as quidic totat. Xercius ciendit aquiber spitatus simincipsae. Nam, sin rebus.
-            </p>
+    <section id="events">
+        <div class="left-content left-event">
+            <div class="left-content-img">
+                <img class="img-slider" src="img/img-event-1.png" alt="">
+                <img class="img-slider" src="img/img-event-1.png" alt="">
+                <img class="img-slider" src="img/img-event-1.png" alt="">
+            </div>
+        </div>
+        <div class="right-content right-event">
+            <h1 id="event">Nos prochains<br>événements</h1>
+            <div class="right-content-slideshow-wrap">
+                <div class="right-content-item">
+                    <h3 style="font-variant: all-small-caps; font-weight: lighter;">ven — 2 juin 2018 — 09h30<br>
+                        théâtre du pommier</h3>
+                    <h5>— Le clan des O’tori</h5>
+                    <p class="troupes-info">
+                        et magnatur as de perest que mos a dolo ipsaped mi, velecerovide pro quunt hiliciassum ium intoren delectent molupta pereperum aut quam fuga. Obit, te idemporest lab inusae evel modiam, quo esequi ariassit quo beaquas magnam fugitem la sum ex etus maiore, as quidic totat. Xercius ciendit aquiber spitatus simincipsae. Nam, sin rebus.
+                    </p>
+                </div>
+                <div class="right-content-item">
+                    <h3 style="font-variant: all-small-caps; font-weight: lighter;">ven — 2 juin 2018 — 09h30<br>
+                        théâtre du pommier</h3>
+                    <h5>— Le clan des O’tori</h5>
+                    <p class="troupes-info">
+                        et magnatur as de perest que mos a dolo ipsaped mi, velecerovide pro quunt hiliciassum ium intoren delectent molupta pereperum aut quam fuga. Obit, te idemporest lab inusae evel modiam, quo esequi ariassit quo beaquas magnam fugitem la sum ex etus maiore, as quidic totat. Xercius ciendit aquiber spitatus simincipsae. Nam, sin rebus.
+                    </p>
+                </div>
+                <div class="right-content-item">
+                    <h3 style="font-variant: all-small-caps; font-weight: lighter;">ven — 2 juin 2018 — 09h30<br>
+                        théâtre du pommier</h3>
+                    <h5>— Le clan des O’tori</h5>
+                    <p class="troupes-info">
+                        et magnatur as de perest que mos a dolo ipsaped mi, velecerovide pro quunt hiliciassum ium intoren delectent molupta pereperum aut quam fuga. Obit, te idemporest lab inusae evel modiam, quo esequi ariassit quo beaquas magnam fugitem la sum ex etus maiore, as quidic totat. Xercius ciendit aquiber spitatus simincipsae. Nam, sin rebus.
+                    </p>
+                </div>
+            </div>
+            <button class="slide_1" data-slide-role="btn-prev-slide" >prev</button>
+            <button class="slide_1" data-slide-role="btn-next-slide" >next</button>
         </div>
     </section>
-
-    <section id="contact">
+    <section>
         <div class="left-content left-contact"><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.3968174046336!2d6.9259187509935085!3d46.99318087904655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e0a1030cb247d%3A0x51dd29f33e858e5f!2sRue+du+Seyon+32%2C+2000+Neuch%C3%A2tel!5e0!3m2!1sfr!2sch!4v1530232021127" width="100%" height="90px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
         <div class="right-content right-contact">
-            <h1>Retrouvons-nous<br> pour créer</h1>
+            <h1 id="contact">Retrouvons-nous<br> pour créer</h1>
             <form action="/my-handling-form-page" method="post" class="formulaire">
                 <div>
 
@@ -73,7 +100,7 @@
                 <div>
                     <textarea id="msg" name="user_message"> Ecrivez-nous ici</textarea>
                 </div><br><br>
-                <a href="#" id="button">ENVOYER</a>
+                <button id="button">ENVOYER</button>
             </form>
         </div>
     </section>

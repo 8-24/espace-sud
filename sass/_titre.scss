@@ -1,9 +1,10 @@
 @import "variables";
+@import "fonts";
 h1 {
   font-size: 3em;
   word-break:normal;
   font-weight: bold;
-  font-family: $titre-font;
+  font-family: titleFont;
   color: $titre-color;
   line-height: 50px;
   margin-left: 20px;
@@ -20,7 +21,7 @@ h1 {
 h2 {
   font-size: 2.5em;
   font-weight:lighter;
-  font-family: $titre-font;
+  font-family: titleFont;
   color: $titre-color;
   margin-left: 20px;
    @media screen and (max-width: 800px){
@@ -35,7 +36,7 @@ h2 {
 h3 {
   font-size: 2.5em;
   font-weight: 300;
-  font-family: $text-font;
+  font-family: titleFont;
   line-height: 32px;
   margin-left: 20px;
   word-break: normal;
@@ -54,7 +55,7 @@ h4{
   font-size: 1.75em;
   word-break: normal;
   font-weight: bold;
-  font-family: $text-font;
+  font-family: titleFont;
   color: $titre-color;
   margin-left: 20px;
    @media screen and (max-width: 800px){
@@ -69,7 +70,7 @@ h5 {
   font-size: 1.5em;
   word-break: normal;
   font-weight: 400;
-  font-family: $titre-font;
+  font-family: titleFont;
   color: $titre-color;
   margin-top: 3em;
   margin-left: 20px;
@@ -84,7 +85,7 @@ h6{
   font-size: .75em;
   font-weight: 400;
   word-break: normal;
-  font-family: $titre-font;
+  font-family: titleFont;
   color: $titre-color;
   margin-left: 20px;
    @media screen and (max-width: 800px){
@@ -101,7 +102,7 @@ p{
   font-weight: lighter;
   word-break: normal;
   color: $titre-color;
-  font-family: $text-font;
+  font-family: paragraphsFont;
   text-align: justify;
   margin-top: 1em;
   line-height: 25px;
